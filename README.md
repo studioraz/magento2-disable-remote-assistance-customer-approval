@@ -1,4 +1,4 @@
-# SR_DisableCustomerRemoteAssistanceConsent
+# Magento 2 Disable Customer Remote Assistance Consent
 
 A Magento 2 module that **bypasses the customer consent requirement for the Login As Customer (remote assistance) feature**, allowing admin users to log in as customers without requiring explicit customer opt-in.
 
