@@ -9,6 +9,7 @@
     <module name="SR_DisableCustomerRemoteAssistanceConsent">
         <sequence>
             <module name="SR_Base"/>
+            <module name="Magento_LoginAsCustomerAssistance"/>
         </sequence>
     </module>
 </config>
