@@ -6,7 +6,7 @@
  */
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
-    <module name="SR_{ModuleName}" setup_version="{version}">
+    <module name="SR_LoginAsCustomer" setup_version="{version}">
         <sequence>
             <module name="SR_Base"/>
         </sequence>

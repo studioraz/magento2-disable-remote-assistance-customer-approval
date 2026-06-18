@@ -7,7 +7,7 @@
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
     <menu>
-        <add id="SR_{ModuleName}::config" title="{ModuleName}" module="SR_{ModuleName}" translate="title" sortOrder="10000"
-             action="adminhtml/system_config/edit/section/sr_{ModuleName}" parent="SR_Base::srbase" resource="SR_{ModuleName}::config"/>
+        <add id="SR_LoginAsCustomer::config" title="LoginAsCustomer" module="SR_LoginAsCustomer" translate="title" sortOrder="10000"
+             action="adminhtml/system_config/edit/section/sr_LoginAsCustomer" parent="SR_Base::srbase" resource="SR_LoginAsCustomer::config"/>
     </menu>
 </config>

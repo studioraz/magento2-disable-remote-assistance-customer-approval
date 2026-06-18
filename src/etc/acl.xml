@@ -9,7 +9,9 @@
     <acl>
         <resources>
             <resource id="Magento_Backend::admin">
-                <resource id="SR_{ModuleName}::config" title="{ModuleName}" translate="title" sortOrder="10000"/>
+                <resource id="SR_Base::srbase">
+                    <resource id="SR_LoginAsCustomer::config" title="LoginAsCustomer" translate="title" sortOrder="10000"/>
+                </resource>
             </resource>
         </resources>
     </acl>
