@@ -8,6 +8,6 @@ use \Magento\Framework\Component\ComponentRegistrar;
 
 ComponentRegistrar::register(
     ComponentRegistrar::MODULE,
-    'SR_LoginAsCustomer',
+    'SR_DisableRemoteAssitance',
     __DIR__
 );

@@ -1,5 +1,5 @@
 {
-    "name": "studioraz/magento2-login-as-customer",
+    "name": "studioraz/magento2-disable-remote-assistance-customer-approval",
     "description": "Disable Magento remote assitance customer approval to allow admin login as customer ",
     "type": "magento2-module",
     "prefer-stable": true,
@@ -16,7 +16,7 @@
             "src/registration.php"
         ],
         "psr-4": {
-            "SR\\LoginAsCustomer\\": "src"
+            "SR\\DisableRemoteAssitance\\": "src"
         }
     },
     "support": {
