@@ -7,7 +7,7 @@
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
     <menu>
-        <add id="SR_DisableRemoteAssitance::config" title="DisableRemoteAssitance" module="SR_DisableRemoteAssitance" translate="title" sortOrder="10000"
-             action="adminhtml/system_config/edit/section/sr_LoginAsCustomer" parent="SR_Base::srbase" resource="SR_DisableRemoteAssitance::config"/>
+        <add id="SR_DisableCustomerRemoteAssistanceConsent::config" title="Disable Customer Remote Assistance Consent" module="SR_DisableCustomerRemoteAssistanceConsent" translate="title" sortOrder="10000"
+             action="adminhtml/system_config/edit/section/sr_LoginAsCustomer" parent="SR_Base::srbase" resource="SR_DisableCustomerRemoteAssistanceConsent::config"/>
     </menu>
 </config>

@@ -10,7 +10,7 @@
         <resources>
             <resource id="Magento_Backend::admin">
                 <resource id="SR_Base::srbase">
-                    <resource id="SR_DisableRemoteAssitance::config" title="DisableRemoteAssitance" translate="title" sortOrder="10000"/>
+                    <resource id="SR_DisableCustomerRemoteAssistanceConsent::config" title="DisableCustomerRemoteAssistanceConsent" translate="title" sortOrder="10000"/>
                 </resource>
             </resource>
         </resources>

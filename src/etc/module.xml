@@ -6,7 +6,7 @@
  */
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
-    <module name="SR_DisableRemoteAssitance" setup_version="{version}">
+    <module name="SR_DisableCustomerRemoteAssistanceConsent" setup_version="{version}">
         <sequence>
             <module name="SR_Base"/>
         </sequence>
